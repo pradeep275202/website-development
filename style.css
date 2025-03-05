@@ -19,8 +19,14 @@ body{
 .first_child{
   display: flex;
   height: 70px;
-  /* display: block; */
+  /* height: fit-content; */
+  /* display: fixe; */
 }
+/* .displa{
+  background-color: white;
+  height: 200px;
+  position: fixed;
+} */
 .left_div{
   width: 40%;
 }

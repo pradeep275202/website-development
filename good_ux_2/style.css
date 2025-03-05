@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav_bar {
+  height: 300px;
+  background-color: #ffffff;
+  display: flex;
+}
+.left_div {
+  width: 50%;
+}
+.logo {
+  width: 12%;
+}
+.left_logo {
+  margin-left: 125px;
+  margin-top: 20px;
+}
+.right_div {
+  display: flex;
+  border: 1px solid black;
+  /* gap: px; */
+  display: flex;
+  height: 50px;
+  flex-wrap: nowrap;
+  /* width: 100%; */
+  /* flex-wrap: nowrap; */
+  /* width: 100%; */
+}
+.right_div > div {
+  width: 100%;
+  border: 1px solid black;
+  width: 100px;
+  gap: 1px;
+  /* margin: 10px; */
+  text-align: center;
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+  height: 50px;
+  /* flex: auto; */
+  margin-top: 15px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  /* gap: 2px; */
+}
+
+.flex-container >div {
+  background-color: DodgerBlue;
+  color: white;
+  width: 100px;
+  /* margin: 10px; */
+  text-align: center;
+  line-height: 75px;
+  /* font-size: 30px; */
+  /* gap: 5px; */
+}
+.Cetegories{
+          text-decoration: none;
+          font-size: 15px;
+}
+.behind_the{
+          text-decoration: none;
+          font-size: 15px;
+}
+.input_area{
+          width: 150px;
+          margin-left: 4px;
+          padding: 8px;
+}
