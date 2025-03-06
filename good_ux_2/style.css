@@ -3,36 +3,46 @@
   padding: 0px;
 }
 .nav_bar {
-  height: 300px;
+  height: 80px;
+  /* background-color: #ce1d1d; */
   background-color: #ffffff;
   display: flex;
+  /* position: fixed; */
 }
 .left_div {
   width: 50%;
+  /* position: fixed; */
 }
 .logo {
   width: 12%;
 }
 .left_logo {
-  margin-left: 125px;
-  margin-top: 20px;
+  width: 900px;
+  margin-left: 120px;
+  margin-top: 15px;
 }
 .right_div {
+  /* width: 50%; */
   display: flex;
-  border: 1px solid black;
+  /* width: 100%; */
+  /* width: 50%; */
+  /* position: fixed; */
+  /* border: 1px solid black; */
   /* gap: px; */
   display: flex;
   height: 50px;
+  gap: 10px;
+  /* margin-top: 10px; */
   flex-wrap: nowrap;
   /* width: 100%; */
   /* flex-wrap: nowrap; */
   /* width: 100%; */
 }
 .right_div > div {
-  width: 100%;
-  border: 1px solid black;
+  /* width: 100%; */
+  /* border: 1px solid black; */
   width: 100px;
-  gap: 1px;
+  /* gap: 3px; */
   /* margin: 10px; */
   text-align: center;
   /* line-height: 75px; */
@@ -46,29 +56,160 @@
   display: flex;
   align-items: stretch;
   background-color: #f1f1f1;
-  /* gap: 2px; */
+  /* gap: 20px; */
 }
 
-.flex-container >div {
+.flex-container > div {
   background-color: DodgerBlue;
   color: white;
   width: 100px;
+  /* gap: 20px; */
   /* margin: 10px; */
   text-align: center;
   line-height: 75px;
   /* font-size: 30px; */
   /* gap: 5px; */
 }
-.Cetegories{
-          text-decoration: none;
-          font-size: 15px;
+.caterories {
+  text-decoration: none;
+  font-size: 17px;
 }
-.behind_the{
-          text-decoration: none;
-          font-size: 15px;
+.behind_the {
+  text-decoration: none;
+  font-size: 18px;
+  /* margin-top: 20px; */
+  /* margin-left: 5px; */
+  /* margin-left: 20px; */
 }
-.input_area{
-          width: 150px;
-          margin-left: 4px;
-          padding: 8px;
+.input_area {
+  width: 150px;
+  margin-left: 4px;
+  padding: 9px;
+  border-radius: 7px;
+  border-color: #5767844d;
+}
+.button_whatis {
+  font-size: 13px;
+  padding: 10px;
+  width: 130%;
+  border-radius: 7px;
+  border-color: #5767844d;
+}
+.div_button {
+  margin-left: 60px;
+}
+.button_for_subscribe {
+  padding: 9px;
+  margin-left: 40px;
+  background-color: #7d00fe;
+  border-radius: 7px;
+  border-color: #5767844d;
+}
+.icon {
+  width: 40px;
+  margin-top: -30px;
+  display: none;
+  margin-right: 50px;
+}
+.ak {
+  margin-top: 10px;
+}
+.first_child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: 400px; */
+  /* width: 100%; */
+  /* height: 80vh; */
+  /* border: 1px solid black; */
+}
+.second_container {
+  /* margin-top: 100px; */
+  height: 800vh;
+  background-color: #f5f7fa;
+}
+.first_child {
+  /* margin-top: 10px; */
+  /* border: 2px solid red; */
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 100px; */
+  background-color: #f5f7fa;
+}
+.content_area {
+  /* margin-top: 20px; */
+  height: 500px;
+  width: 86%;
+  /* border: 2px solid red; */
+  margin: 4px;
+  background-color: #9b00ff;
+  border-radius: 10px;
+}
+.input_email {
+  padding: 14px;
+  background-color: #8C00FE;
+  /* border: none; */
+  border-radius: 10px;
+  border: 1px solid #5767844d;
+  background-color: #4747cd;
+}
+.stay_inspired {
+  padding: 14px;
+
+  margin-left: -12px;
+  border: 2px solid #5767844d;
+  /* border: 1px solid black; */
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.lower_input{
+  margin-top: 80px;
+  color: white;
+}
+/* .center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+} */
+
+.third_child_1{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin-top: 1px;
+  
+  /* border: 1px solid black; */
+
+}
+.paira{
+  /* border: 1px solid red; */
+  width: 60%;
+  height: fit-content;
+  margin-top: 1px;
+}
+
+@media (max-width: 800px) {
+  .icon {
+    display: block;
+  }
+  .caterories {
+    display: none;
+  }
+  .behind_the {
+    display: none;
+  }
+  .input_area {
+    display: none;
+  }
+  .div_button {
+    display: none;
+  }
+  .button_for_subscribe {
+    display: none;
+  }
 }
