@@ -1,0 +1,276 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .nav-bar {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-color: white; 
+  padding: 10px; 
+  z-index: 1000; 
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  /* background-color: red; */
+/* }
+.h1_logo:hover {
+  color: red;
+} */
+/* .vl {
+  border-left: 1px solid green;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+} */
+/* .center_collection{
+          display: flex;
+          width: 300px; */
+/* border: 1px solid black; */
+/* height: 70px; */
+/* justify-content: space-evenly;
+          justify-items: center; */
+/* border: none; */
+/* border: rounded-full; */
+
+/* width: 200px; */
+/* }
+.buttons{
+  border: none;
+}  */
+
+/* we are trye second time  */
+
+/* Container for navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* height: 20px; */
+  /* width: 100%; */
+  /* z-index: 10; */
+}
+
+.navbar-container {
+  height: 70px;
+  /* background-color: rebeccapurple; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: relative; /* For containing the fixed elements inside */
+}
+
+/* Left side (Logo) */
+.responsive-image {
+  width: 8%;
+  margin-left: 100px;
+  height: auto;
+  /* object-fit: cover; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* padding-left: 10px; */
+  z-index: 11;
+}
+
+/* Center section (links) */
+.center_section {
+  display: flex;
+  justify-content: end;
+  /* margin-left: 300px; */
+  align-items: center;
+  width: 50%;
+  gap: 15px;
+  /* z-index: 10; */
+}
+
+/* Right side icones */
+.right-side {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  height: 100%;
+  gap: 15px;
+  /* z-index: 11; */
+  margin-right: 100px;
+}
+
+.right-section-icons {
+  margin-top: 20px;
+  display: flex;
+
+  gap: 20px;
+  /* border: 1px solid black;
+  height: 30px; */
+  /* padding: 10px; */
+}
+
+/* World Icon */
+.world-icone {
+  margin-top: 20px;
+}
+.ri-menu-line {
+  width: 5000%;
+}
+.text-hower {
+  border: 1px solid red;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+.text-hower:hover {
+  background-color: red;
+}
+.right-section-icons {
+  border: 1px solid #5767844d;
+  height: 30px;
+  padding: 10px;
+  border-radius: 250px;
+  cursor: pointer;
+}
+.world-icone {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.right-section-icons:hover {
+  box-shadow: 1px 1px 1px 1px #5767844d;
+}
+.airbnb-home {
+  margin-top: 10px;
+  /* padding: 10px; */
+}
+.airbnb-button {
+  padding: 10px;
+  font-weight: bold;
+  /* font-size: 1rem; */
+
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+  padding: 1px;
+  width: 170px;
+  /* height: 10px; */
+  /* margin-top: 30px; */
+
+  cursor: pointer;
+}
+.airbnb-button:hover {
+  background-color: #f0f0f0;
+  /* border-radius: 30px; */
+  /* padding: 1px; */
+  /* height: 10px; */
+}
+.stys {
+  font-size: 25px;
+}
+.expresions {
+  font-size: 25px;
+  color: #5767844d;
+}
+.second-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 45px;
+}
+.container {
+  width: 50%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+ /* justify-content: center ; */
+ justify-items: center;
+ border: 1px ;
+ border-radius: 30px;
+ padding: 2px;
+ /* gap: 10px; */
+  border: 1px solid  #5767844d;
+  border-radius: 50px;
+}
+.second-buttons{
+  /*   */
+  /* font-weight: bold; */
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.earch-icone{
+  /* padding: 10px; */
+}
+.second-buttons:hover{
+  background-color: #f0f0f0;
+}
+.vl {
+  border-left: 2px solid #f0f0f0;
+  height: 50px;
+  margin-top: 5px;
+}
+.right-side-icone-text{
+  display: flex;
+  font-size: 15px;
+}
+.second-buttons1{
+  width: 250px;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+
+}
+.second-buttons1:hover{
+  background-color: #f0f0f0;
+
+}
+.right-side-icone-text{
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 30px;
+  width: 30%;
+}
+.icon-right-side{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top:15px;
+  margin-left: 110px;
+  background-color: red;
+  width: 30px;
+  padding: 4px;
+  height: 30px;
+  border-radius: 50px;
+
+
+}
+.right-side-icone-text:hover{
+  background-color: #f0f0f0;
+}
+.third-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.icone-section{
+  width: 90%;
+  background-color: rebeccapurple;
+}
