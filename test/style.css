@@ -1,0 +1,5 @@
+.content-area{
+          display: none;
+}
+.ak:hover .content-area{display: block;}
+
