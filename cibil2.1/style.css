@@ -87,7 +87,7 @@ body {
   margin-left: -50px;
   text-decoration: none;
   /* gap: 50px; */
-  margin-top: -5px;
+  margin-top: -15px;
 }
 .li-section a {
   text-decoration: none;
@@ -480,4 +480,36 @@ body {
 }
 .five-right-div{
   float: right;
+}
+
+.five-main-container{
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+.five-contaner-child{
+  height: 400px;
+  /* background-color: red; */
+  width: 70%;
+  /* margin-top: px; */
+}
+.content-area-3{
+  margin-top: 100px;
+ 
+}
+.inner-five-container{
+  display: flex;
+  gap: 10px;
+  
+}
+.image-container{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  /* background-color: red; */
+}
+.image-content{
+  width: 100%;
+  height: 250px;
+  border-radius: 40px;
 }
