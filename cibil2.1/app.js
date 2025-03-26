@@ -26,12 +26,15 @@ function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("span-section").style.display = "none";
     document.getElementById("id-section").style.marginTop="10px"
+    document.getElementById("navBar").style.transition="all 1s"
+    document.getElementById("id-section").style.transitionDuration = "1s";
 
     document.getElementById("navBar").style.height = "100px";
   } else {
  document.getElementById("span-section").style.display = "block";
     document.getElementById("navBar").style.height = "150px";
     document.getElementById("span-section").style.display = "flex";
+    document.getElementById("id-section").style.marginTop = "-10px"
 
   }
 }
